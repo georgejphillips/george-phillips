@@ -10,7 +10,7 @@ const IndexPage = () => {
         websites for over 10 years and I still love to learn new things.
       </p>
       <StaticImage
-        alt="George and his dog, Beanz a blonde chiwawa cross"
+        alt="George and his dog, Beanz a blonde chihuahua cross"
         src="../images/me.jpg"
         width={400}
       />

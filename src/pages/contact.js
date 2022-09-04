@@ -8,10 +8,22 @@ const ContactPage = () => {
       <p>Feel free to check out</p>
       <ul>
         <li>
-          <Link to="www.linkedin.com/georgejphillips">Linked in</Link>
+          <Link
+            to="https://www.linkedin.com/georgejphillips"
+            target="_blank"
+            rel="nofollow"
+          >
+            Linked in
+          </Link>
         </li>
         <li>
-          <Link to="www.github.com/georgejphillips">Github</Link>
+          <Link
+            to="https://www.github.com/georgejphillips"
+            target="_blank"
+            rel="nofollow"
+          >
+            Github
+          </Link>
         </li>
       </ul>
     </Layout>

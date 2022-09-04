@@ -5,9 +5,7 @@ import { Link } from 'gatsby';
 const Work = () => {
   return (
     <Layout pageTitle={"Things I've worked on"}>
-      <p>
-        I've been lucky enough to work on these websites recently
-      </p>
+      <p>I've been lucky enough to work on these websites recently</p>
       <ul>
         <li>
           <Link
@@ -39,7 +37,11 @@ const Work = () => {
           </Link>
         </li>
         <li>
-          <Link to="https://www.iqstudentaccommodation.com" rel="nofollow" target="_blank">
+          <Link
+            to="https://www.iqstudentaccommodation.com"
+            rel="nofollow"
+            target="_blank"
+          >
             IQ Student Accommodation
           </Link>
         </li>
