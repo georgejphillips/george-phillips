@@ -1,0 +1,56 @@
+@import '../scss/typography.scss';
+
+body {
+  font-family: 'Josefin Slab';
+  background-color: $martinique-purple;
+  color: $soft-peach;
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+  font-size: 1.2rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.gp-nav {
+  ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  li {
+    padding: 1.5rem;
+  }
+
+  a {
+    text-transform: uppercase;
+  }
+}
+
+main {
+  // 1rem + 1.5rem
+  min-height: calc(100vh - 8.5rem);
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.container {
+  margin: auto;
+  max-width: 1100px;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+p {
+  max-width: 720px;
+}
+
+.gp-footer {
+  padding: 10px 0;
+  box-shadow: 0 -1px 10px 0 rgba($soft-peach, .2);
+}

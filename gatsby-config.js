@@ -1,7 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `George Phillips`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://www.georgephillips.co.uk`,
   },
-  plugins: [],
-}
+  plugins: [
+    'gatsby-plugin-image',
+    'gatsby-plugin-sharp',
+    'gatsby-plugin-sass',
+  ],
+};

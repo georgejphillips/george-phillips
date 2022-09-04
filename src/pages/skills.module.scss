@@ -1,0 +1,16 @@
+.gp-skill-list {
+  display: flex;
+
+  li {
+    &:after {
+      content: ',';
+      padding-right: 0.25rem;
+    }
+
+    &:last-of-type {
+      &:after {
+        content: '';
+      }
+    }
+  }
+}
